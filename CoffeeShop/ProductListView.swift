@@ -30,7 +30,6 @@ struct ContentView: View {
     
     @State var showDetailView = false
     @State var currentProduct = Product(name: "", img: Image(""), description: "")
-    @State var isButtonHidden = false
     
     var body: some View {
         ZStack {
@@ -210,7 +209,6 @@ struct ContentView: View {
         @ViewBuilder
         func Magnify(_ image: Image) -> some View {
             ZStack {
-//                Color.black
                 image
                     .resizable()
                     .scaledToFit()
