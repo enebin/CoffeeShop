@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B380E6A272BB85400BAD550 /* CoffeeShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B380E69272BB85400BAD550 /* CoffeeShopApp.swift */; };
-		9B380E6C272BB85400BAD550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B380E6B272BB85400BAD550 /* ContentView.swift */; };
+		9B380E6C272BB85400BAD550 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B380E6B272BB85400BAD550 /* ProductListView.swift */; };
 		9B380E6E272BB85600BAD550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B380E6D272BB85600BAD550 /* Assets.xcassets */; };
 		9B380E71272BB85600BAD550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B380E70272BB85600BAD550 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		9B380E66272BB85400BAD550 /* CoffeeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B380E69272BB85400BAD550 /* CoffeeShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopApp.swift; sourceTree = "<group>"; };
-		9B380E6B272BB85400BAD550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B380E6B272BB85400BAD550 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		9B380E6D272BB85600BAD550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B380E70272BB85600BAD550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				9B380E69272BB85400BAD550 /* CoffeeShopApp.swift */,
-				9B380E6B272BB85400BAD550 /* ContentView.swift */,
+				9B380E6B272BB85400BAD550 /* ProductListView.swift */,
 				9B380E6D272BB85600BAD550 /* Assets.xcassets */,
 				9B380E6F272BB85600BAD550 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B380E6C272BB85400BAD550 /* ContentView.swift in Sources */,
+				9B380E6C272BB85400BAD550 /* ProductListView.swift in Sources */,
 				9B380E6A272BB85400BAD550 /* CoffeeShopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
